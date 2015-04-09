@@ -22,7 +22,7 @@ body
 							response = {'Others':0}
 							for (var key in responseTemp) {
 								if (responseTemp.hasOwnProperty(key)) {
-									if (responseTemp[key]/responseData['sum'] > 0.05) {
+									if (responseTemp[key]/responseData['sum'] > 0.03) {
 										response[key] = responseTemp[key] 
 									} else {
 										response['Others'] += responseTemp[key] 
